@@ -89,7 +89,7 @@ main {
 	height: 55px;
 }
 
-article div {
-	font-size: 20px;
-	color: blue;
+.related{
+	background-color: white;
+	Margin: 5px 100px;
 }
