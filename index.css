@@ -1,21 +1,53 @@
-* {
-	margin: 0;
-	padding: 0;
-}
+@import url('https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c');
 
-html,
-body {
-	width: 100%;
-	height: 100%;
+:root {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 body {
 	background-color: rgba(179, 157, 219, 0.75);
+	max-width: 800px;
+    margin: auto;
+    height:auto;
 }
 
-header {
-	height: 50px;
-	padding: 20px;
+header nav ul {
+    padding-left: 0;
+}
+
+header nav {
+    margin: 0 5px;
+}
+
+header nav ul li {
+    list-style-type: none;
+	
+}
+
+header nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 400px) {
+    header nav {
+        display: flex;
+    }
+
+    header nav ul {
+        display: flex;
+        flex: 1;
+    }
+
+    header nav ul li {
+        margin-left: 2%;
+    }
 }
 
 h1 {
@@ -24,20 +56,18 @@ h1 {
 }
 
 img {
-	margin: 15px;
+	margin-bottom: 50px;
+	border-radius: 50px;
 }
 
 p {
+	text-align: left;
+	text-indent: 20px;
 	font-size: 25px;
 }
 
-#logo a {
-	margin-left: 20px;
-	float: left;
-	font-weight: bold;
-	text-decoration: none;
-	font-size: 35px;
-	color: black;
+textarea{
+	width:252px;
 }
 
 hr {
@@ -47,49 +77,38 @@ hr {
 	height: 2px;
 }
 
-nav li {
-	display: inline;
-
-	font-size: 25px;
-	font-weight: bold;
-	padding: 0 30px;
-	color: black;
-}
-
-nav li a:hover {
-	color: #a45f93;
-}
-
 main {
 	text-align: center;
 	border-color: black;
 	border-width: 5px;
 }
 
-#me {
-	font-size: 30px;
-	height: 350px;
-	margin: 1px 1px 1px 1px;
-	padding: 30px;
+
+@media (min-width: 500px) {
+    .rellist{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5px;
+        row-gap: 5px;
+    }
 }
 
-#interesting {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
+@media (min-width: 700px) {
+    .rellist {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
-
-#contacts {
-	border-top-style: solid;
-	line-height: 1.5;
-	padding: 30px;
-}
-
 .facebook {
 	height: 55px;
 }
 
-.related{
+.related {
 	background-color: white;
-	Margin: 5px 100px;
+	border-radius: 50px;
+	padding: 10px;
+	height:100vh;
+	margin: 15px;
 }
+
+.related img{
+	width: 80%}
