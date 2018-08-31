@@ -65,7 +65,11 @@ p {
 	font-size: 25px;
 }
 
-form textarea{
+form{
+    width:173px;
+}
+
+form>textarea{
     width:173px;
     border:none;
     padding:0px;
