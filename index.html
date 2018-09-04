@@ -8,23 +8,38 @@
     <link rel="stylesheet" href="index.css">
     <title>Iryna Kraykivska</title>
     <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"> 
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
     <header>
         <nav>
             <ul>
-            <li><a href="#me"><p><b>Iryna Kraykivska</b></p></a></li>
-            <li><a href="#interesting"><p>Interesting</p></a></li>
-            <li><a href="#contacts"><p>Contacts</p></a></li>
-        </ul>
-    </nav>
+                <li>
+                    <a href="#me">
+                        <p><b>Iryna Kraykivska</b></p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#interesting">
+                        <p>Interesting</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#contacts">
+                        <p>Contacts</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <hr>
     <main>
         <section id="me">
             <h1>Hello! I am Iryna.</h1>
-            <img src="img/iryna-kraykivska.jpg" alt="iryna-kraykivska">
+            
+            <img src="img/irynaKraykivska.jpg">
+            
             <p>I am learning on programing engeneering. Now I am learning web-deweloping skills.</p>
             <p>At my free time I usually read something or play with my cat.^^ But last few weeks I don't have any free time.(</p>
             <p>Also I like swimming and walking. Now I am working at polish call-center.</p>
@@ -34,46 +49,46 @@
         <section id="interesting">
             <h1>Relative articles that can interest you</h1>
             <div class="rellist">
-            <article>
-                <div class="related">
-                    <h2>Interesting books</h2>
-                    <h3>Last one:</h3>
-                    <img src="img/books.png" alt="books">
-                    <p>Dara Corniy, called Ukrainian Stephanie Mayer, began her own saga. Look into the black soul of the dark immortal - and you will see love there, which was the cause of rage.
-                    </p>
-                </div>
-            </article>
-            <article>
-                <div class="related">
-                    <h2>My cat photos</h2>
-                    <img src="img/ajame.jpg" alt="cat">
-                    <p>He looks nice, right?</p>
-                    <p>He loves playing and walking. And climbing on trees, of course.</p>
-                    <p>I met him 2 month ago and now he feels like a king.</p>
-                </div>
-            </article>
-            <article>
-                <div class="related">
-                    <h2>My hena tatto</h2>
-                    <img src="img/tatto.jpg" alt="tatto">
-                    <p>I made it when I was 12 and I feeled very cool. But later my teacher said that it is used only for indian weddings. My classmates were making jokes about it all time I had it.</p>
-                </div>
-            </article>
+                <article>
+                    <div class="related">
+                        <h2>Interesting books</h2>
+                        <h3>Last one:</h3>
+                        <img src="img/books.png" alt="books">
+                        <p>Dara Corniy, called Ukrainian Stephanie Mayer, began her own saga. Look into the black soul of the dark immortal - and you will see love there, which was the cause of rage.
+                        </p>
+                    </div>
+                </article>
+                <article>
+                    <div class="related">
+                        <h2>My cat photos</h2>
+                        <img src="img/ajame.jpg" alt="cat">
+                        <p>He looks nice, right?</p>
+                        <p>He loves playing and walking. And climbing on trees, of course.</p>
+                        <p>I met him 2 month ago and now he feels like a king.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="related">
+                        <h2>My hena tatto</h2>
+                        <img src="img/tatto.jpg" alt="tatto">
+                        <p>I made it when I was 12 and I feeled very cool. But later my teacher said that it is used only for indian weddings. My classmates were making jokes about it all time I had it.</p>
+                    </div>
+                </article>
             </div>
         </section>
         <hr>
     </main>
-    <footer >
+    <footer>
         <div id="contacts">
             <h3>Drop me a line</h3>
             <form>
                 <b><label>Your name:</label></b>
-                <input type="text" name="name" placeholder="Your name">
+                <input class="field" type="text" name="name" placeholder="Your name">
                 <br>
                 <b><label>Your email:</label></b>
-                        <input type="email" name="email" placeholder="Your email" required>
+                <input class="field" type="email" name="email" placeholder="Your email" required>
                 <br>
-                <textarea placeholder="Message"></textarea><br>
+                <textarea  placeholder="Message"></textarea><br>
                 <input type="submit" value="Send">
             </form>
         </div>
@@ -83,6 +98,7 @@
         </div>
         <p>I. Kraykivska</p>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
